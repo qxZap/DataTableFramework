@@ -1,0 +1,52 @@
+{
+  "_about": [
+    "DataTableFramework channel registry. One entry per claimed channel range or adopted table.",
+    "Channels: ship /Game/DataTableFramework/<Composite>/ChNNNN.uasset in your own pak; nothing else.",
+    "Later parents win a same-named row: vanilla < adopted tables < Ch0001 < ... < Ch1000.",
+    "New rows should be prefixed C<NNNN>_ with your channel number. Rows that already shipped keep their names -- saves store parts by row name.",
+    "adopted: tables existing mods already add to a composite. The framework lists them as parents and ships an empty stub at each path, so those mods work unchanged.",
+    "One mod, one channel file. Claim a channel by adding it here before you release."
+  ],
+  "channels": {},
+  "adopted": {
+    "VehicleParts": {
+      "/Game/DataAsset/VehicleParts/Wheels_PT": "Proxy - TechWheels / WheelSizeUnlimited",
+      "/Game/HX8/OverlordParts/DT_HX8_LegacyParts": "Austin - Overlord HX8",
+      "/Game/HX8/OverlordParts/DT_Overlord_GarageParts": "Austin - Overlord HX8",
+      "/Game/HX8/ExhaustTipsR135/DT_HX8_ExhaustTips": "Austin - Overlord HX8",
+      "/Game/HX8/WinchR137/DT_HX8_Winch100T": "Austin - Overlord HX8",
+      "/Game/HX8/AeroR164/DT_HX8_RearAero": "Austin - Overlord HX8",
+      "/Game/HX8/FifthWheelsR186/DT_HX8_FifthWheels": "Austin - Overlord HX8",
+      "/Game/HX8/EngineAestheticR200/DT_HX8_EngineAesthetic": "Austin - Overlord HX8",
+      "/Game/HX8/TowUpgradeR253/DT_HX8_TowUpgrade": "Austin - Overlord HX8",
+      "/Game/DataAsset/VehicleParts/VehicleParts_MoreTuning": "qxZap - MoreTuning (own rows, Motor Works, vehicle gates stripped)",
+      "/Game/DataAsset/VehicleParts/VehicleParts_MoreTuningNoLimits": "qxZap - MoreTuning No Limits (after MoreTuning: overrides its rows)",
+      "/Game/DataAsset/VehicleParts/VehicleParts_MoreTuningCarbon": "qxZap - MoreTuning Carbon (after No Limits)",
+      "/Game/DataAsset/VehicleParts/VehicleParts_TehEngines": "Teh - Engine Sound Pack (0.7.20 port by qxZap)",
+      "/Game/DataAsset/VehicleParts/VehicleParts_SuspensionExpansion": "Suspension Expansion (0.7.20 port by qxZap)",
+      "/Game/RakMods/HeavyHaulPack/Parts/Engine/RHHP_Engines": "Rak - Heavy Haul Pack",
+      "/Game/RakMods/HeavyHaulPack/Parts/Tires/RHHP_Tires": "Rak - Heavy Haul Pack",
+      "/Game/RakMods/HeavyHaulPack/Parts/Transmissions/RHHP_Transmissions": "Rak - Heavy Haul Pack",
+      "/Game/RakMods/HeavyHaulPack/Parts/RHHP_Parts": "Rak - Heavy Haul Pack",
+      "/Game/RakMods/HeavyHaulPack/Parts/RHHP_Misc": "Rak - Heavy Haul Pack"
+    },
+    "Cargos": {
+      "/Game/DataAsset/Cargos_Proxy": "Proxy - Oversize Cargo",
+      "/Game/DataAsset/Cargos_Arini": "qxZap - Arini island (new_cargos rows)"
+    },
+    "Items": {
+      "/Game/DataAsset/Items/Items_MajasDetailWorks": "Maja - Detail Works",
+      "/Game/DataAsset/Items/Items_SlidesAttachments": "SlideZone - Slide Industries Attachments",
+      "/Game/DataAsset/Items/Items_SlidesDashboards": "SlideZone - Slide Industries Attachments",
+      "/Game/DataAsset/Items/Items_MoreAttachments": "qxZap & satigt3 - MoreAttachments (free and premium share it)"
+    },
+    "CharacterBodyParts": {
+      "/Game/DataAsset/CharacterBody/CharacterBodyParts_Slides": "SlideZone - Slide Industries Attachments"
+    },
+    "Vehicles": {
+      "/Game/DataAsset/Vehicles/Vehicles_VehicleLabs": "qxZap - VehicleLabs (fuel pumps, bulk economy, removable front bumpers; D:/MTLiveMap/vehicle_mod/tables.py)",
+      "/Game/DataAsset/Vehicles/Vehicles_Arini": "qxZap - Arini island (changed + added vehicle rows, incl. Crany and Goliath4-DB from Vehicles_Deprecated)",
+      "/Game/RPMTech/DataAsset/RPMTech_Vehicle": "Rak - RPMTech vehicles"
+    }
+  }
+}
