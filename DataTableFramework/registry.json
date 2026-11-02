@@ -32,7 +32,8 @@
     },
     "Cargos": {
       "/Game/DataAsset/Cargos_Proxy": "Proxy - Oversize Cargo",
-      "/Game/DataAsset/Cargos_Arini": "qxZap - Arini island (new_cargos rows)"
+      "/Game/DataAsset/Cargos_Arini": "qxZap - Arini island (new_cargos rows)",
+      "/Game/DataAsset/Cargos_CapitalistEconomy": "qxZap - Capitalist Economy (vanilla rows, stacking on, no volume discount)"
     },
     "Items": {
       "/Game/DataAsset/Items/Items_MajasDetailWorks": "Maja - Detail Works",
